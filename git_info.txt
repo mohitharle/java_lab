@@ -1,0 +1,37 @@
+List of Required Softwares
+1)notepad++
+2)GIT
+3)git hub account
+4)sts (spring tool suit)/ eclips
+5)java 17
+ 
+ How to Configure git in your Win machine 
+ execute below commands on cmd 
+1)git config --global user.name "mohitharle"
+2)git config --global user.email "harlemohit7@gmail.com" 
+
+how to clone repository(projects) 
+ git clone <repo url>
+
+how to push your code to your repository   
+1)Go to project location (C:\Users\Acer\code\java_lab)
+2)right click and select git gui
+3)select files from unstaging area to staging area (by single click on files)
+4)write commit message 
+5)click on commit
+6)click on push
+7)again click on push 
+8)if you are commiting first time then one popup message will come (select there browser option to authenticate)and then do needfull
+9)second time onwords authentication does not required 
+Note : if git is already config with different user crediantials then you will get below error
+remote: Permission to mohitharle/java_lab.git denied to jayeshcoder.
+fatal: unable to access 'https://github.com/mohitharle/java_lab.git/': The requested URL returned error: 403
+Pushing to https://github.com/mohitharle/java_lab.git
+ 
+ solution :now to slove this follow below steps
+ 1)Control Panel\User Accounts\Credential Manager 
+ 2)then check git relited entries 
+ 3)if present then remove
+ 4)follow step 8 of how to push your code to your repository   
+
+ 
