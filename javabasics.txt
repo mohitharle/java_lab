@@ -1,0 +1,38 @@
+Student->class
+ properties->variables(name,age,section,semester,roll number,college name,University name,branch)
+ behaviour->methods(actions)read,speak,walk,eat,dance.
+ 
+ class Book {
+}
+
+class Teacher{
+}
+
+class Dog{
+}
+
+class Lion{
+}
+
+Mohit|String 
+24|int
+CSE|String
+24|int
+B|char
+VIT|String
+78.6|decimal
+
+String name;
+int age;
+String branch;
+int roll no;
+char section;
+String College;
+decimal percentage;
+
+<type> <identifier>;
+identifier(any name in java is called identifier)
+allowed special characters are only two($ _)
+
+HW
+represent Teacher and Employee in java and its properties 
