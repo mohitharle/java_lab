@@ -36,3 +36,39 @@ allowed special characters are only two($ _)
 
 HW
 represent Teacher and Employee in java and its properties 
+
+
+Method
+
+
+
+
+to identify : ()check parentheses
+Syntax
+<return type> <method name><parentheses()> {}
+yes or no(true or false)boolean
+mohit String
+address :class
+   plNo 127/A yogeshwar nagar,nagpur,maharashtra 440034
+ 46 int
+ 28000 int
+ 24   int
+ 7775821318 int
+void
+
+void eat(){
+return;
+}
+void eat(){
+}
+String tellName(){
+return "mohit";
+
+}  
+
+
+int tellAge(){
+return 24;
+}
+2147463647
+7775821318
