@@ -1,0 +1,3 @@
+Eclips shortcuts
+a)type (main) then ctrl + spacebar
+b)formating select all conteint Ctrl+Shift+F

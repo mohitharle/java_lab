@@ -72,3 +72,111 @@ return 24;
 }
 2147463647
 7775821318
+
+
+
+Type of variables
+
+a)instance variable or non static variable 
+b)static variable or class level variable
+
+
+Instance Variable 
+1)Declaration:-
+[modifiers] <data type> <variable name>;
+String name;
+ 
+2)Defination= declaration + initilization
+[modifiers] <data type> <variable name>=<value/state>;
+String name= "Mohit";
+
+3)how you can access instance variable?
+a)create an object of that class 
+example <class type> <logical name/reference> =new <class type>();
+Employee emp=new Employee();
+Teacher tchr=new Teacher();
+Student stud=new Student();
+b)<reference> <.> <variable name>;
+emp.employeeId;
+
+
+Static variable 
+static String name;
+static int id;
+static char section;
+how can you access a static variable
+a)like instance variable(but it is not recommended)
+b)<class type> <.> <variable name>;
+Employee.age;
+
+
+what are permitted modifiers for a variable?
+private,protected,public,static,final,transient,volatile
+
+what are illegle modifiers for a variable
+native,abstract,syncronized,strictfp(NASS)
+Modifiers (11)
+ppp sss fan tv
+
+private 
+protected
+public
+static 
+syncronized
+strictfp
+final
+abstract
+native
+transient
+volatile
+
+
+(premitive)Data Type (8)
+byte
+short
+int 
+long
+float
+double
+boolean
+char
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

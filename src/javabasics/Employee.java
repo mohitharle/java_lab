@@ -1,6 +1,16 @@
 package javabasics;
 
 public class Employee {
+	int employeeId=53;
+	String name="Mohit";
+	char section='A';
+	static int age=24;
+	static String empName="Gaurav";
+	static int id=352;
+	static String company="hsbc";
+
+	
+	
 void eat() {
 	return;
 }

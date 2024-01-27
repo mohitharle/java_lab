@@ -13,5 +13,13 @@ long phoneNumber= emp.tellPhoneNumber();
 System.out.println(phoneNumber);
 int rollNumber= emp.tellRollNumber();
 System.out.println(rollNumber);
+System.out.println(emp.employeeId);
+System.out.println(emp.name);
+System.out.println(emp.section);
+System.out.println(emp.age);
+System.out.println(Employee.age);
+System.out.println(Employee.company);
+System.out.println(Employee.empName);
+System.out.println(Employee.id);
 }
 }
