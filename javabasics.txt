@@ -143,12 +143,28 @@ char
 
 
 
+Methods
 
+type of methods 
+a)static method
+b)non static/instance method
 
+Based on arguments
+a)argumented method
+b)no argumented method
 
-
-
-
+syntax
+[modifiers] <return type> <method name>([arguments]){}[;]
+[access modifier][non access modifier] <return type> <method name>([arguments]){}[;]
+Note illigle modifiers for method :TV
+SSS FAN
+SS FA 
+examples
+a)public static int add(int a , int b){}
+b)public static int substract(int a , int b) {}
+c)public static int multiply(int a , int b) {}
+d)public static int divide (int a , int b) {}
+e)private static void register (int sid, String name, long phNo, String city){}
 
 
 
