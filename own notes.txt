@@ -1,0 +1,15 @@
+how to identify methods?
+a)method should have return type like int,float,void,etc.
+b)method should have paranthesis()
+c)inside method it should have return keyword.
+ 
+ diff btwn variables & methods
+ 
+
+variable
+a)it is a container which stores multiple values like 10,10.0,true,"mohit",'m',etc.
+  
+methods
+a)a method is identified by its action which can perform any type of action and hold the properties like eat,dance,etc.
+
+  

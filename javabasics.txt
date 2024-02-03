@@ -165,6 +165,65 @@ b)public static int substract(int a , int b) {}
 c)public static int multiply(int a , int b) {}
 d)public static int divide (int a , int b) {}
 e)private static void register (int sid, String name, long phNo, String city){}
+f)protected static final void eat(String fruit){}
+
+
+Constructor
+to identify a constructor 
+a)constructor name must be class name
+b)it should not have any return type even void
+
+
+1)define a constructor 
+syntax 
+[access modifier] <class name> ([arguments]){}
+class Dog{
+Dog() {}
+}
+class Cat{
+Cat() {}
+} 
+
+
+a)public void Cat(){}
+b)private String Cat(){}
+c)public Cat(){}
+
+choose the correct option (constructor)
+1)all are true
+2)all are false
+3)only a and b are true
+4)only c is correct
+5)only a is correct
+6)only b is correct
+
+Purpose of the constructor
+To initilize the variables
+
+blocks
+1)instance block :{}
+2)static block: static block
+
+how to identify java file or source file
+by seeing file extension (.java)
+
+to identify class file or binary file
+by seeing file extension (.class)
+
+how to compile a java file 
+1)nevigate to file location 
+2)type javac <file name.java> in cmd
+
+note:use of javap command to inspect the class file
+example javap Test
+
+how to run a java program using cmd?
+type java (class file name) without extension
+example java Test
+
+
+
+
 
 
 

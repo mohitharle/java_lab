@@ -11,8 +11,8 @@ public class Employee {
 
 	
 	
-void eat() {
-	return;
+ boolean eat() {
+	return true;
 }
 
 String tellName() {
@@ -33,6 +33,9 @@ long tellPhoneNumber() {
 }
     int tellRollNumber() {
     	return 46;
+    }
+    int add(int a, int b) {
+    	return a+b;
     }
 }
 

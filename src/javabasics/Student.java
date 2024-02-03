@@ -21,5 +21,8 @@ String tellSchoolName() {
 char tellSection() {
 	return 'A';
 }
+void teacher() {
+	System.out.println("my teacher is nice");
+}
 
 }
