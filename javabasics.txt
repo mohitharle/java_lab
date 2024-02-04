@@ -222,13 +222,41 @@ type java (class file name) without extension
 example java Test
 
 
+Package 
+purpose of package in java 
+1)to achive modularity
+2)to resolve name conflict 
 
+first line should be package statement in source file (if present) 
+syntax package <packagename>;
+isro.com -> com.isro 
+bt.com -> com.bt
 
+java.basics 
+java.datatypes 
+java.controlstatement
+java.loop
+java.array
+java.operators
+java.exception
 
+import statement 
+to reffer the classes
+example: 
+import com.pack1.*;(not recommended)because it reduces readibility
+import com.pack1.Cat;
 
+static import
+import static com.pack2.Cat.speak;
+static import com.pack2.Cat.speak;(compiler will give error)
 
+note:bydefault all the classes of java.lang package are available to every class so it is optional to import java.lang package
+java.lang.System.out.println("hello Mohit");
+System.out.println("Hello Mohit");
 
-
+explain  System.out.println("Hello Mohit");
+System is a class in java.lang package it is default
+ 
 
 
 

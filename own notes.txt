@@ -7,9 +7,17 @@ c)inside method it should have return keyword.
  
 
 variable
-a)it is a container which stores multiple values like 10,10.0,true,"mohit",'m',etc.
+a)it is a container which stores multiple values like 10,10.0,true,"mohit",'m',etc..
   
 methods
 a)a method is identified by its action which can perform any type of action and hold the properties like eat,dance,etc.
 
+  1)argumented 
+  here we pass something in paranthesis(i like singing)
+  2)non argumented
+  where paranthesis is empty
   
+  1)static
+  which is call by class name and static keyword is with method
+  2)non static
+  there is no static keyword, and we need to create new object 
