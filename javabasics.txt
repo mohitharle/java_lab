@@ -255,7 +255,58 @@ java.lang.System.out.println("hello Mohit");
 System.out.println("Hello Mohit");
 
 explain  System.out.println("Hello Mohit");
-System is a class in java.lang package it is default
+System is a class in java.lang package 
+out:it is a static variable in System class,whose type is PrintStream
+println:it is a method available in PrintStream class,it will print the content on the console and go to new line 
+
+java basics 
+class 
+variables
+methods
+constructor
+blocks
+package
+import statement 
+comments
+
+
+comments 
+single line comments: //
+multiline comments: /* */
+java comments: /** */
+
+component order
+package 
+import statement 
+class 
+variables 
+blocks
+constructor
+method
+
+note:class members=variables + methods
+
+
+int a=10;
+static int b=20;
+compiler initilizes a with default valuse 0, then it updates the default value by given value 
+
+Loding Order/memory allocation order
+1)static members (if there are blocks and variables then first come first serve)
+static members get memory at the class loading time 
+2)instance members (FCFS)
+get memory when we crate and object 
+
+ 
+
+
+
+
+
+
+
+
+
  
 
 

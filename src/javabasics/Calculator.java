@@ -1,5 +1,11 @@
 package javabasics;
+//hi
+//helllo
+//amit
 
+
+  
+ 
 public class Calculator {
 	public static int add(int a , int b){
 	return	a+b;
@@ -22,7 +28,13 @@ public class Calculator {
 		
 	
 	}
-	
+	/**
+	 * register method save student information
+	 * @param sid
+	 * @param name
+	 * @param phNo
+	 * @param city
+	 */
 	private static void register (int sid, String name, long phNo, String city){
 		System.out.println(sid+ " " +name +" "+phNo+" "+city);
 	}

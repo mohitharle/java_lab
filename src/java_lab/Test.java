@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	com.pack2.Cat cat=new com.pack2.Cat();
        Dog dog1=new Dog();
        Cat cat1=new Cat();
-   dog1.eat();
+       dog1.eat();
    dog1.bark();
 Dog.bark();
 cat1.eat();
