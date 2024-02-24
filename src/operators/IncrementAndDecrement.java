@@ -20,14 +20,19 @@ package operators;
 public class IncrementAndDecrement {
 	public static void main(String[] args) {
 		int a=10;
+		int b=20;
 		//a++;
 		//++a;
-		
+		//int c=30++;
+		//final int c=30; 
+		//c++;
+		int c=30;
+		//c=(c++)++;
 		//10+11+11+12=44
-	//	System.out.println(++a+ ++a +a + a++ + a++);
+	System.out.println(b+b++ + --b+ ++b - --b);
 		//int b=10;
 	//	System.out.println(--b);
-		System.out.println(a++ +a + a-- -a-- + ++a);
+		System.out.println(--a+a++ +a+ a++ + --a);
 		 
 		
 	}
