@@ -6,14 +6,14 @@ public class Homework {
 		int b=31;
 		
 		if (++a>b++ & a++<++b) {
-			System.out.println(a);
+			System.out.println(a);//
 			System.out.println(b);
 			
 		}
 		
 		else {
-			System.out.println(a);
-			System.out.println(b);
+			System.out.println(a);//value of a is 23
+			System.out.println(b);//33
 		}
 		
 		
@@ -25,8 +25,8 @@ public class Homework {
 		}
 		
 		else {
-			System.out.println(a);
-			System.out.println(b);
+			System.out.println(a);//24
+			System.out.println(b);//34
 		}
 		
 	}
